@@ -1,5 +1,5 @@
 /**
- * 
+ * @author melissaLobo mellobomel@gmail.com
  */
 
 function somar(numero1, numero2){
