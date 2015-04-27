@@ -30,7 +30,7 @@ function dividir(numero1, numero2){
 	return 0;
 }
 
-//function isNumeric(str){
-//  var er = /^[0-9]+$/;
-//  return (er.test(str));
-//}
+function isNumeric(str){
+  var er = /^[0-9]+$/;
+  return (er.test(str));
+}
