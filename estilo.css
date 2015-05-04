@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size:22px;
+}
+
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 24%, #CCE);
+	background-size: cover;
+}
+
+.input-valor{
+	margin:8px auto;
+	width:95%;
+	height:30px;
+	font-size: 16px;
+	overflow:hidden;
+	text-align: right;
+	color:#48484D;
+	padding: 4px;
+	background-color:#fff;
+	box-shadow: inset -1px -1px 4px 1px #eee;
+}
+
+#container{
+	width:80%;
+	height:auto;
+	margin:4px auto;
+}
+
+#calculadora{
+	width: 234px;
+	height: 230px;
+	padding:2px;
+	background-color: #65D277;

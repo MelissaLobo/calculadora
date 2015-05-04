@@ -5,6 +5,8 @@
 <title>Calculadora JavaScript</title>
 <link rel="stylesheet" type="text/css" href="estilo.css" />
 
+<script type="text/javascript" src="metodos.js"></script>
+
 </head>
 <body>
 	<div id="container">
@@ -13,13 +15,24 @@
 				<!--<p>Melissa Lobo mellobomel@gmail.com</p>-->
 			</hgroup>
 		</header>
-		
+
+		<section id="calculadora">
+			<header class="top">
+				<div class="input-valor"></div>
+			</header>
+			<h3>Calculadora</h3>
+			Numero 1: <input type="text" id="txtN1"> <br /> 
+			Numero 2: <input type="text" id="txtN2"> <br /> 
+			Resultado: <input type="text" id="txtResultado"> <br />
+
+			<h3 id="txtResultado2">Resultado</h3s>
+
+				<input type="button" value="+" onclick="somar()"> <input
+					type="button" value="-" onclick="subtrair()"> <input
+					type="button" value="x" onclick="multiplicar()"> <input
+					type="button" value="/" onclick="dividir()">
+		</section>
 	</div>
-	
-	<script type="text/javascript" src="script.js"></script>
-	
-</body>
-</html>
 
 </body>
 </html>

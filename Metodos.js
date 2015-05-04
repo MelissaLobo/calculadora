@@ -1,38 +1,34 @@
 /**
  * @author melissaLobo mellobomel@gmail.com
  */
-
-function somar(numero1, numero2){
-	if(isNumeric(numero1) && isNumeric(numero2)){
-		return parseFloat(numero1) + parseFloat(numero2);
+function somar() {
+		var n1 = document.getElementById("txtN1").value;
+		var n2 = document.getElementById("txtN2").value;
+		var resultado = parseInt(n1) + parseInt(n2);
+		document.getElementById("txtResultado").value = resultado;
+		document.getElementById("txtResultado2").innerHTML = resultado;
 	}
-	return 0;
-}
 
-function subtrair(numero1, numero2){
-	if(isNumeric(numero1) && isNumeric(numero2)){
-		return numero1 - numero2;
+	function subtrair() {
+		var n1 = document.getElementById("txtN1").value;
+		var n2 = document.getElementById("txtN2").value;
+		var resultado = parseInt(n1) - parseInt(n2);
+		document.getElementById("txtResultado").value = resultado;
+		document.getElementById("txtResultado2").innerHTML = resultado;
 	}
-	return 0;
-}
 
-
-
-function multiplicar(numero1, numero2){
-	if(isNumeric(numero1) && isNumeric(numero2)){
-		return numero1 * numero2;
+	function multiplicar() {
+		var n1 = document.getElementById("txtN1").value;
+		var n2 = document.getElementById("txtN2").value;
+		var resultado = parseInt(n1) * parseInt(n2);
+		document.getElementById("txtResultado").value = resultado;
+		document.getElementById("txtResultado2").innerHTML = resultado;
 	}
-	return 0;
-}
 
-function dividir(numero1, numero2){
-	if(isNumeric(numero1) && isNumeric(numero2)){
-		return numero1 / numero2;
+	function dividir() {
+		var n1 = document.getElementById("txtN1").value;
+		var n2 = document.getElementById("txtN2").value;
+		var resultado = parseFloat(n1) / parseFloat(n2);
+		document.getElementById("txtResultado").value = resultado;
+		document.getElementById("txtResultado2").innerHTML = resultado;
 	}
-	return 0;
-}
-
-function isNumeric(str){
-  var er = /^[0-9]+$/;
-  return (er.test(str));
-}
