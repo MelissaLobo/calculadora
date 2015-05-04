@@ -16,6 +16,8 @@ function subtrair(numero1, numero2){
 	return 0;
 }
 
+
+
 function multiplicar(numero1, numero2){
 	if(isNumeric(numero1) && isNumeric(numero2)){
 		return numero1 * numero2;
